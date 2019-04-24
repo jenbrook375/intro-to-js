@@ -45,5 +45,6 @@ console.log(arr5);
 var arr7 = arr4.slice(1, 2); // stops before index 2, but does not include it
 console.log(arr7);
 
-var arr7 = arr4.slice(1, 3);
+var arr7 = arr4.slice(1, 3); // starts at index 1, captures everything before index 3
 console.log(arr7);
+
