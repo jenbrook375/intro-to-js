@@ -40,8 +40,12 @@ console.log(mod);
 var mod = b % c;
 console.log (mod);
 
-var e = '5'; // makes 5 type string
+var e = '10'; // makes 5 type string
 console.log (e);
 
-var e = '5'; // returns type of variable
+var e = '10'; // returns type of variable
 console.log (typeof e);
+
+console.log (a === e); //strict comparison, checks for type and value
+
+console.log (a == e); // loose comparison, checks for value // truthy
